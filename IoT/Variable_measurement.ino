@@ -46,6 +46,9 @@ void loop(){
    Serial.print(", ");
    Serial.println(power,4);  //send the power to serial port
   
-  // Short delay
-  delay(1000);
+  // Long delay
+  for (int x = 0; x < 300; x++)
+  {
+    delay(1000);
+  }
 }
