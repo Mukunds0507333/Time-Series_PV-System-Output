@@ -36,7 +36,7 @@ void loop(){
    current = in_voltage / (R1+R2);
 
    // Calculate power
-   power = (current*current)*R1;
+   power = current*in_voltage;
    
    // Print results to Serial Monitor to 2 decimal places
    Serial.print("DATA,TIME,"); // PLX-DAQ command
