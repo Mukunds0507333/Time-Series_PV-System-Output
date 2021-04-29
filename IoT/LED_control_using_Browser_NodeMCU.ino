@@ -1,7 +1,3 @@
-
-
-//Visit www.roboshala.com for more details on NodeMCU and other projects.
-
 #include <ESP8266WiFi.h>
  
 const char* ssid = "GAURAV12"; // SSID i.e. Service Set Identifier is the name of your WIFI
